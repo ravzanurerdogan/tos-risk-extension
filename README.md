@@ -118,7 +118,7 @@ Eşleştirme: sistemin doğrulanmış bulgusu ile altın madde, normalize sayfa 
   - **Tahkim / dava hakkı** kategorisi sıkı ölçümde 2/22 (%9), esnekte 12/22.
   - **Takip/izleme** 0/4.
   - Uzun Türkçe sayfada (Discord) model çok az madde çıkardı (%11).
-- **Yanlış alarm.** 47 altın dışı bulgunun tamamı bir insan tarafından incelenmedi. Taslak etiketlemeye göre (etiketleyiciyle aynı kişi, bağımsız değil): **10 gerçek risk (altın liste eksik), 14 sınırda, 23 yanlış alarm** → yaklaşık %27 yanlış alarm oranı; kesinlik (precision) ≈ %57, sınırdakiler sayılırsa ≈ %73. Yanlış alarmların deseni: **kullanıcı lehine hükümler** (tahkimden çıkış hakkı, "1 ay önceden bildiririz" sözü), **standart sözleşme maddeleri** ("tüm anlaşma", dil maddesi, uygulanacak hukuk) ve **koşullu fesih** hükümleri. Detay: [`eval/review-extra-findings.md`](eval/review-extra-findings.md).
+- **Yanlış alarm.** 47 altın dışı bulgunun 8'i kişi tarafından gözden geçirildi (2'sinde taslak etiket değişti), kalan 39'u yalnızca taslak etiketlidir. Güncel etiketlemeye göre (etiketleyiciyle aynı kişi, bağımsız değil): **12 gerçek risk (altın liste eksik), 13 sınırda, 22 yanlış alarm** → yaklaşık %26 yanlış alarm oranı; kesinlik (precision) ≈ %59, sınırdakiler sayılırsa ≈ %74. Yanlış alarmların deseni: **kullanıcı lehine hükümler** (tahkimden çıkış hakkı, "1 ay önceden bildiririz" sözü), **standart sözleşme maddeleri** ("tüm anlaşma", dil maddesi, uygulanacak hukuk) ve **koşullu fesih** hükümleri. Detay: [`eval/review-extra-findings.md`](eval/review-extra-findings.md).
 - **Doğrulayıcının attığı iddialar (14).** 9 uydurma (alıntı kaynakta yok), 4 değiştirilmiş (başı doğru, devamı farklı), 1 `...` ile kesilmiş.
 
 ### Eval'in sınırları (dürüst not)
@@ -190,7 +190,7 @@ Videodaki anlar: (1) mutlu yol: skor + alıntılı kartlar, (2) belirsizlik: "mo
 
 - **Recall düşük** (%31 sıkı, %52 esnek). Sistem gerçek risklerin yarısını bile tam yakalamıyor; sistematik kör noktalar yukarıda. Rapor "tam liste" değil, "kanıtlı örnekler" olarak okunmalıdır.
 - **Model kalitesi sınırlı** (`gpt-oss-20b`, hızlı/ücretsiz katman). Daha güçlü bir model veya kategori başına ayrı sorgu recall'ı artırabilir; denenmedi.
-- **Kullanıcı lehine ve standart hükümleri yanlış işaretleme** (≈ %27 yanlış alarm, taslak).
+- **Kullanıcı lehine ve standart hükümleri yanlış işaretleme** (≈ %26 yanlış alarm; etiketlerin yalnızca 8/47'si gözden geçirildi).
 - **Parçalama sınırı:** en fazla 8 parça (~60 bin karakter). Daha uzun sayfaların sonu okunmaz; kullanıcıya uyarı gösterilir.
 - **Otomatik ToS tespiti yok.** Kullanıcı sayfayı açtığında analiz otomatik başlamaz; **Analiz et** düğmesine basılır. Sistem, sayfanın gerçekten bir sözleşme olup olmadığını ayırt etmez: üçüncü taraf bir özet sitesi (ConductAtlas) de sorgusuz analiz edilmiştir; bu sayfa eval'e dahil edilmedi.
 - **Dil/bölge farkındalığı yok.** Kullanıcının konumuna özgü maddeler (ör. yalnızca ABD için geçerli tahkim) ayırt edilmez.
