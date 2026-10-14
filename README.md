@@ -5,7 +5,7 @@ Her riskli madde sayfadan **birebir alıntıyla** gösterilir. Alıntısı sayfa
 
 > ⚠️ **Bu araç hukuki tavsiye vermez.** Sonuçlar bilgilendirme amaçlıdır; arayüzde de bu uyarı her zaman görünür.
 
-Demo videosu: [`demo/demo.mp4`](demo/demo.mp4) (25 sn, Cypress ile kaydedildi; bkz. [Demo hakkında dürüst not](#demo-hakkında-dürüst-not))
+Demo videosu: [`demo/demo.mp4`](demo/demo.mp4) (25 sn, Cypress ile kaydedildi; bkz. [Demo hakkında dürüst not](#demo-hakkında-dürüst-not)) · Gerçek Chrome + gerçek LLM kaydı: [`demo/demo-real.mp4`](demo/demo-real.mp4)
 
 ---
 
@@ -156,6 +156,8 @@ Savunmasız koşuda gizli metin filtresi beyaz üstüne beyaz ve ekran dışı m
 - Model bu üçüne **uymadı** (6 risk bulundu, ciddiyetler düşürülmedi).
 - Ancak **kalıp tabanlı tespit bunları yakalamadı:** kullanıcıya uyarı gitmedi.
 
+Test sayfası (`injection-test.html`) teslim öncesi saldırı paragraflarıyla yeniden düzenlendi; savunmalı koşunun yukarıdaki sayıları (5/6 risk, 6 şüpheli cümle, 3 gizli parça) sayfanın önceki sürümüyle ölçüldü ve **yeniden ölçülmedi**.
+
 **Bu sonuçlardan ne söyleyebiliriz, ne söyleyemeyiz?**
 
 - Bu 5 saldırı tipi, bu sayfada, bu modelle **engellendi**.
@@ -217,11 +219,3 @@ eval/                    gold-*.json, compare.py, RESULTS.md, results.json, revi
 ```
 
 ---
-
-<!-- TESLİMDEN ÖNCE SİL:
-- [ ] Ekip üyeleri / kişi sayısı
-- [ ] review-extra-findings.md'yi gözden geçirdim; yanlış alarm sayılarını kendi etiketlerimle güncelledim
-- [ ] gold-*.json dosyalarını gözden geçirdim ("ekip tarafından gözden geçirildi" cümlesini ancak bu yapıldıysa yaz)
-- [ ] Repoda API anahtarı olmadığını kontrol ettim (gsk_ aramasıyla)
-- [ ] demo/demo.mp4 repoda
--->
