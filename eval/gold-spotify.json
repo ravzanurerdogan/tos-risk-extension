@@ -1,0 +1,225 @@
+{
+  "site": "spotify",
+  "url": "https://www.spotify.com/tr-tr/legal/end-user-agreement/",
+  "etiket_kurali": "Kullanıcıdan hak alan, ücret/veri/hesap konusunda tek taraflı yetki veren, sorumluluğu şirketten kaldıran veya dava hakkını kısıtlayan cümleler riskli sayılır. Standart, zararsız veya kullanıcı lehine cümleler sayılmaz.",
+  "kaynak_notu": "Taslak Claude tarafından hazırlandı. DİKKAT: Bu sayfa için Claude, etiketlemeden önce sistemin çıktısını (kabul/atılan maddeler) bir sohbet oturumunda görmüştü; bu yüzden Spotify etiketleri Netflix kadar bağımsız DEĞİLDİR. İnsan gözden geçirmesi bekleniyor.",
+  "guc_aciklamasi": "kesin: açıkça kullanıcı aleyhine. sinirda: şirket lehine ama kısmen dengelenmiş (ör. bildirim süresi var, kabul etmeyebilirsin).",
+  "maddeler": [
+    {
+      "id": "S1",
+      "kategori": "icerik_lisansi",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "münhasır olmayan, devredilebilir, alt lisansı verilebilir, telifsiz, tamamen ödenmiş, iptal edilemez ve tüm dünyada geçerli bir lisans verirsiniz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S2",
+      "kategori": "icerik_lisansi",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "ilgili Geri Bildirim gizli olmayacaktır ve Spotify bu Geri Bildirim'i sınırlama olmaksızın ve size ödeme yapmaksızın kullanabilir.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S3",
+      "kategori": "icerik_lisansi",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "ve bu tür haklardan yararlanmamayı da kabul edersiniz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S4",
+      "kategori": "icerik_kaldirma",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify, her türlü Kullanıcı İçeriği'ni herhangi bir nedenle ya da nedensiz şekilde kaldırma ya da buna erişimi engelleme hakkını saklı tutar.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S5",
+      "kategori": "icerik_kaldirma",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify ya da ilgili sahipler belirli şarkılara, videolara, podcast'lere, sesli kitaplara ve diğer İçerikler'e erişimi önceden bildirimde bulunmaksızın kaldırabilir.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S6",
+      "kategori": "takip_izleme",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify, (herkese açık yayınlanan ya da özel olarak paylaşılan) Kullanıcı İçeriği'ni izleyebilir ya da inceleyebilir",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S7",
+      "kategori": "tahkim_dava_hakki",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "TAHKİMDE HAKİM YA DA JÜRİ BULUNMAZ VE TAHKİM KARARININ MAHKEMECE İNCELENMESİ SINIRLIDIR.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S8",
+      "kategori": "tahkim_dava_hakki",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "hiçbir hakem ya da hakim birden fazla kişinin iddialarını birleştiremez veya başka bir şekilde herhangi bir türde bir temsili dava ya da toplu dava yürütemez.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S9",
+      "kategori": "tahkim_dava_hakki",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "ve bu süre içerisinde belirtilmeyen hiçbir iddia için hiçbir çözüm yolu hakkı bulunmayacaktır.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S10",
+      "kategori": "tahkim_dava_hakki",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "hiçbir kamu duyurusu ya da kamuya açık yorum yapmayacaksınız veya tahkimle ilgili hiçbir propaganda başlatmayacaksınız.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S11",
+      "kategori": "tahkim_dava_hakki",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Bu durumda, Spotify'daki hesabınız derhal sonlandırılır ve bu tahkim hükmü, reddettiğiniz tadillerden hemen önce yürürlükte olduğu şekliyle geçerli kalmaya devam eder.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S12",
+      "kategori": "sorumluluk_sinirlamasi",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "tek ve münhasır çözüm yolunuzun tüm Spotify yazılımını kaldırmak ve Spotify Hizmeti'ni kullanmayı durdurmak olduğunu kabul edersiniz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S13",
+      "kategori": "sorumluluk_sinirlamasi",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "(a) Spotify'a ilk iddiadan önceki on iki ay içinde ödemiş olduğunuz tutar veya (b) 30,00 $ arasında hangisi daha yüksekse ilgili tutardaki toplam yükümlülük.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S14",
+      "kategori": "sorumluluk_sinirlamasi",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify Hizmeti \"olduğu gibi\" ve \"kullanılabilir olduğu şekliyle\", hiçbir türde açık, zımni veya yasal garanti olmaksızın sunulmaktadır.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S15",
+      "kategori": "diger",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "karşısında Spotify'ı tazmin etmeyi ve beri kılmayı kabul edersiniz",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S16",
+      "kategori": "iade_yok",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Bu Şartlar'da aksi belirtilmediği sürece kısmi üyelik dönemleri için iade veya kredi sunmayız.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S17",
+      "kategori": "iade_yok",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "ve halihazırda yapmış olduğunuz ödemeleri iade etmeyeceğini kabul edersiniz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S18",
+      "kategori": "iade_yok",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "Spotify, resmi makamların ve diğer üçüncü tarafların eylemlerinden veya kontrolümüz dışındaki durumlardan kaynaklanan internet veya diğer hizmet kesintileri ya da arızalarıyla bağlantılı olarak size karşı hiçbir sorumluluk veya iade yükümlülüğü taşımaz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S19",
+      "kategori": "otomatik_yenileme",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Aksi belirtilmedikçe (örneğin, Ön Ödemeli Süre için kaydolduysanız) Ücretli Abonelikler iptal edilene kadar süresiz olarak devam eder.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S20",
+      "kategori": "otomatik_yenileme",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "Avantajlı Kullanım sona ermeden önce Ücretli Abonelik'i iptal etmezseniz cayma hakkınızı kaybedersiniz ve siz Ücretli Abonelik'i iptal edene kadar kararlaştırılan tutarı size her ay otomatik olarak yansıtması için Spotify'ı yetkilendirmiş olursunuz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S21",
+      "kategori": "tek_tarafli_degisiklik",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify Hizmeti'nin tamamını veya bir kısmını değiştirebilir, askıya alabilir ya da (belirli işlevler, özellikler, abonelik planları ve promosyon teklifleri dahil) sağlamayı durdurabiliriz (geçici veya kalıcı olarak).",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S22",
+      "kategori": "tek_tarafli_degisiklik",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify, Şartlar'ı ve Şartlar'daki haklarından herhangi birini tamamen ya da kısmen devir ve temlik edebilir ve Spotify, Şartlar kapsamındaki yükümlülüklerinden herhangi birini devredebilir.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S23",
+      "kategori": "hesap_kapatma",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Spotify herhangi bir gerekçeyle kullanıcı adınızı geri alabilir veya değiştirmenizi gerekli kılabilir.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S24",
+      "kategori": "hesap_kapatma",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "Ücretli Aboneliği en az 14 gün önceden size bildirerek herhangi bir zamanda sonlandırma hakkını saklı tutarız.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S25",
+      "kategori": "fiyat_degisikligi",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "fiyat değişikliği geçerli olduktan sonra Spotify Hizmeti'ni kullanmaya devam ederek yeni fiyatı kabul etmiş olursunuz.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S26",
+      "kategori": "tek_tarafli_degisiklik",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "Bu Şartlar'da yapılacak herhangi bir değişiklik sonrasında Spotify Hizmeti'ni kullanmanız, bu değişiklikleri kabul ettiğiniz anlamına gelir.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "S27",
+      "kategori": "diger",
+      "ciddiyet": "dusuk",
+      "guc": "sinirda",
+      "alinti": "Spotify Hizmeti'nin işleyişini kolaylaştırmak amacıyla Spotify Hizmeti'nin Cihazınızdaki işlemciyi, bant genişliğini ve depolama donanımını kullanmasına izin vermek",
+      "metinde_bulundu": true
+    }
+  ]
+}

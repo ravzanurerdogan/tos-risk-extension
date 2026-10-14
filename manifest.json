@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "ToS Risk Raporu",
+  "version": "0.2.0",
+  "description": "Kullanım koşullarını ve gizlilik politikalarını analiz edip risk raporu çıkarır.",
+  "permissions": ["sidePanel", "storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "ToS Risk Raporu" }
+}

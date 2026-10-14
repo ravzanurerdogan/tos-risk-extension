@@ -1,0 +1,113 @@
+{
+  "site": "netflix",
+  "url": "https://help.netflix.com/en/legal/termsofuse",
+  "etiket_kurali": "Kullanıcıdan hak alan, ücret/veri/hesap konusunda tek taraflı yetki veren, sorumluluğu şirketten kaldıran veya dava hakkını kısıtlayan cümleler riskli sayılır. Standart, zararsız veya kullanıcı lehine cümleler sayılmaz.",
+  "kaynak_notu": "Taslak Claude tarafından, sistemin çıktısına bakılmadan hazırlandı. İnsan gözden geçirmesi bekleniyor.",
+  "guc_aciklamasi": "kesin: açıkça kullanıcı aleyhine. sinirda: şirket lehine ama kısmen dengelenmiş (ör. bildirim süresi var).",
+  "maddeler": [
+    {
+      "id": "G1",
+      "kategori": "otomatik_yenileme",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "Unless you cancel your subscription before your billing date, you authorize us to charge the subscription fee for the next billing cycle to your Payment Method",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G2",
+      "kategori": "iade_yok",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "To the extent permitted by the applicable law, payments are non-refundable and we do not provide refunds or credits for any partial subscription periods or unused Netflix content.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G3",
+      "kategori": "tek_tarafli_degisiklik",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "You authorize us to charge any Payment Method associated with your account in case your primary Payment Method is declined or no longer available to us for payment of your subscription fee.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G4",
+      "kategori": "sorumluluk_sinirlamasi",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "The Netflix service is provided \"as is\" and without warranty or condition.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G5",
+      "kategori": "sorumluluk_sinirlamasi",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "You waive all special, indirect and consequential damages against us.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G6",
+      "kategori": "tahkim_dava_hakki",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "WHERE PERMITTED UNDER THE APPLICABLE LAW, YOU AND NETFLIX AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G7",
+      "kategori": "icerik_lisansi",
+      "ciddiyet": "yuksek",
+      "guc": "kesin",
+      "alinti": "Netflix is free to use any comments, information, ideas, concepts, reviews, or techniques or any other material contained in any communication you may send to us",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G8",
+      "kategori": "tek_tarafli_degisiklik",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "We may assign or transfer our agreement with you including our associated rights and obligations at any time and you agree to cooperate with us in connection with such an assignment or transfer.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G9",
+      "kategori": "icerik_kaldirma",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "we do not guarantee that particular content will be available on the Netflix service at any given time.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G10",
+      "kategori": "tek_tarafli_degisiklik",
+      "ciddiyet": "orta",
+      "guc": "kesin",
+      "alinti": "By allowing others to access the account (which includes access to information on viewing activity for the account), you agree that such individuals are acting on your behalf and that you are bound by any changes that they may make to the account, including changes to subscription plans.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G11",
+      "kategori": "hesap_kapatma",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "Offer eligibility is determined by Netflix at its sole discretion and we reserve the right to revoke an Offer and put your account on hold in the event that we determine you are not eligible.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G12",
+      "kategori": "fiyat_degisikligi",
+      "ciddiyet": "orta",
+      "guc": "sinirda",
+      "alinti": "We may change our subscription plans and the price of our service from time to time.",
+      "metinde_bulundu": true
+    },
+    {
+      "id": "G13",
+      "kategori": "takip_izleme",
+      "ciddiyet": "dusuk",
+      "guc": "sinirda",
+      "alinti": "In certain instances, Customer Service may best be able to assist you by using a remote access support tool through which we have full access to your computer.",
+      "metinde_bulundu": true
+    }
+  ]
+}
