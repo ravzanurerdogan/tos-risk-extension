@@ -126,3 +126,11 @@ function sanitizeText(text) {
   }
   return { text: kalan.join(" "), cikarilan };
 }
+
+// Node testleri için dışa aktarım. Tarayıcıda `module` tanımsızdır, bu satır etkisizdir.
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = {
+    KATEGORILER, CIDDIYETLER, normalizeText, slug, checkMadde,
+    validateReport, computeScore, detectInjection, sanitizeText,
+  };
+}

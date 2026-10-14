@@ -43,7 +43,7 @@ ${pageText}
 
 const CHUNK_CHARS = 8000;
 const OVERLAP = 400;
-const MAX_CHUNKS = 8; // en fazla ~48.000 karakter; ücretsiz limitleri korumak için
+const MAX_CHUNKS = 8; // en fazla ~61.000 karakter (8 x 8000 - örtüşme); ücretsiz limitleri korumak için
 
 function splitChunks(text) {
   const chunks = [];

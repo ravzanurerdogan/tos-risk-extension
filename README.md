@@ -167,6 +167,7 @@ Savunmasız koşuda gizli metin filtresi beyaz üstüne beyaz ve ekran dışı m
 
 ## Testler ve demo
 
+- **Birim testler** (`test/validator.test.js`, 26 test, ek paket yok): `npm test`. Doğrulayıcıyı (uydurma / değiştirilmiş / `...` / kısa alıntı reddi, şema hataları, Türkçe yazım normalizasyonu), skor hesabını ve enjeksiyon kalıplarını **LLM'siz** sınar. Enjeksiyon testleri saldırı bazındadır: `YAKALANIR` grubu regex katmanının kapsadığı saldırılar, `KAÇAR` grubu kalıpları aşan bilinen açıklardır (biri regex'i genişletirse bu test kırılır ve gruba taşınır).
 - **Cypress** (`cypress/e2e/`): `smoke.cy.js` yan panelin açıldığını ve hukuki tavsiye uyarısının göründüğünü doğrular; `demo.cy.js` demo videosunu üretir.
 - Çalıştırma: bir terminalde `npx http-server . -p 8080 -c-1`, diğerinde `npx cypress run`.
 - Video, Cypress'in kendi kaydıdır (`cypress/videos/`).
@@ -191,6 +192,7 @@ Videodaki anlar: (1) mutlu yol: skor + alıntılı kartlar, (2) belirsizlik: "mo
 - **Parçalama sınırı:** en fazla 8 parça (~60 bin karakter). Daha uzun sayfaların sonu okunmaz; kullanıcıya uyarı gösterilir.
 - **Otomatik ToS tespiti yok.** Kullanıcı sayfayı açtığında analiz otomatik başlamaz; **Analiz et** düğmesine basılır. Sistem, sayfanın gerçekten bir sözleşme olup olmadığını ayırt etmez: üçüncü taraf bir özet sitesi (ConductAtlas) de sorgusuz analiz edilmiştir; bu sayfa eval'e dahil edilmedi.
 - **Dil/bölge farkındalığı yok.** Kullanıcının konumuna özgü maddeler (ör. yalnızca ABD için geçerli tahkim) ayırt edilmez.
+- **Doğrulama yalnızca alıntının sayfada var olduğunu kanıtlar.** `aciklama_tr` ve `ciddiyet` alanları kodla doğrulanmaz; gerçek bir alıntıya yanlış veya abartılı açıklama bağlanabilir. Bu yüzden skor bir sıralama göstergesidir, hüküm değil.
 - **Gizli metin filtresi sezgiseldir.** Meşru ama zemin rengine yakın yazılar yanlışlıkla gizli sayılabilir.
 - **Prompt injection savunması** kalıp tabanlıdır; bkz. yukarıdaki bölüm.
 - **İzinler geniştir:** `host_permissions: <all_urls>` (her sayfayı okuyabilmek için). Yayına alınacak bir sürümde `activeTab` ile daraltılmalıdır.
